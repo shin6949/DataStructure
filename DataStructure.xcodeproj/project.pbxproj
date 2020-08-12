@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EF5CD47124E29304004BC214 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EF5CD47024E29304004BC214 /* main.c */; };
+		EF5CD47C24E2A273004BC214 /* 1-1_check_size_each_type.c in Sources */ = {isa = PBXBuildFile; fileRef = EF5CD47B24E2A273004BC214 /* 1-1_check_size_each_type.c */; };
+		EF5CD47E24E2DD5F004BC214 /* 1-2_3-D_array.c in Sources */ = {isa = PBXBuildFile; fileRef = EF5CD47D24E2DD5F004BC214 /* 1-2_3-D_array.c */; };
+		EF5CD48024E2E70B004BC214 /* 1-3_singly_linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = EF5CD47F24E2E70B004BC214 /* 1-3_singly_linked_list.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		EF5CD46D24E29304004BC214 /* DataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF5CD47024E29304004BC214 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EF5CD47B24E2A273004BC214 /* 1-1_check_size_each_type.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1-1_check_size_each_type.c"; sourceTree = "<group>"; };
+		EF5CD47D24E2DD5F004BC214 /* 1-2_3-D_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1-2_3-D_array.c"; sourceTree = "<group>"; };
+		EF5CD47F24E2E70B004BC214 /* 1-3_singly_linked_list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "1-3_singly_linked_list.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		EF5CD46F24E29304004BC214 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				EF5CD47024E29304004BC214 /* main.c */,
+				EF5CD47B24E2A273004BC214 /* 1-1_check_size_each_type.c */,
+				EF5CD47D24E2DD5F004BC214 /* 1-2_3-D_array.c */,
+				EF5CD47F24E2E70B004BC214 /* 1-3_singly_linked_list.c */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5CD47124E29304004BC214 /* main.c in Sources */,
+				EF5CD48024E2E70B004BC214 /* 1-3_singly_linked_list.c in Sources */,
+				EF5CD47C24E2A273004BC214 /* 1-1_check_size_each_type.c in Sources */,
+				EF5CD47E24E2DD5F004BC214 /* 1-2_3-D_array.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
